@@ -49,6 +49,6 @@ if st.button("Predict"):
     prediction = model.predict(scaled_input)[0]
 
     if prediction == 1:
-        st.error("⚠️ The patient is likely to have heart disease.")
+        st.error("⚠️ High Risk of heart disease.")
     else:
-        st.success("✅ The patient is unlikely to have heart disease.")
+        st.success("✅ Low Risk of heart disease.")
