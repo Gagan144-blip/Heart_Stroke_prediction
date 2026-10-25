@@ -10,7 +10,7 @@ st.title("Heart Stroke Prediction ❤️")
 st.markdown("Provide the Following Details")
 
 age = st.slider("Age", 18, 100, 40)
-Gender = st.selectbox("SEX", ['M','F'])
+Gender = st.selectbox("Gender", ['M','F'])
 chest_pain = st.selectbox("Chest Pain Type", ["ATA", "NAP", "TA", "ASY"])
 resting_bp = st.number_input("Resting Blood Pressure (mm Hg)", 80, 200,120 )
 cholesterol = st.number_input("Cholesterol (mg/dL)", 100, 600, 200)
